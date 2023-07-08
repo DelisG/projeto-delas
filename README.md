@@ -8,32 +8,19 @@
 <p align="center"> Senac | Porto Digital | Minas  <p>
  
 ## Este é um projeto Integrador do curso de aperfeiçoamento Backend | Turma 01  
+[![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-9C27B0.svg)](https://github.com/seu-usuario/seu-repositorio)
 
 
-- [:dart: Descrição do Projeto](#-Descrição-do-Projeto)
-- [:ledger:Status do Projeto](#status-do-projeto)
 - [:ledger:Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 - [:inbox_tray:Acesso ao Projeto](#acesso-ao-projeto)
 - [:bookmark: Tecnologias Utilizadas](#-Tecnologias-e-Dependências-Utilizadas)
 - [:on: Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
-
-
-## :dart: Descrição do Projeto
 
 ### Como surgiu o nosso Projeto:
 
 O DELAS foi pensado na carência e necessidade de um espaço feminino para incentivar o trabalho, empoderamento, comunidade, e independência profissional e financeira. Com objetivo de inclusão de comunidade feminina e não-binárie, o DELAS foi construído para ser um marketplace onde serão ofertados produtos e serviços para acomodar todos os públicos, mas que serão atendidos por mulheres, tendo ciência de que o público feminino e LGBTQIA+ é e será prioridade. Visamos então fornecer um ambiente virtual de fácil utilização para empreendedoras expandirem seus negócios e alcançarem sucesso em suas jornadas empreendedoras. A plataforma permite que as empreendedoras cadastrem seus serviços e divulguem os produtos com os quais trabalham. 
   Através da Plataforma, as empreendedoras terão acesso a uma gama de recursos e funcionalidades que visam aprimorar suas interações com os clientes e fortalecer suas estratégias de negócios. A plataforma busca criar um ambiente seguro e confiável para o desenvolvimento de relacionamentos profissionais e o crescimento das empreendedoras.
 Com uma interface intuitiva e amigável, visamos simplificar o processo de expansão dos negócios das empreendedoras, permitindo que elas se concentrem em oferecer serviços de qualidade e alcançar resultados positivos em suas atividades empreendedoras. 
-### Perfil de Empreendedora:
- Cada empreendedora possui um perfil personalizado na plataforma, onde pode fornecer informações detalhadas sobre si mesma, sua empresa e seus objetivos. Esse perfil serve como uma vitrine virtual para apresentar suas habilidades, experiências e conquistas, ajudando a estabelecer uma presença profissional no mercado.### Perfil de Cliente: 
-Os clientes também podem criar um perfil na plataforma, fornecendo seus dados pessoais. Esses perfis de cliente permitem o acesso aos serviços oferecidos pelas empreendedoras e facilitam a pesquisa por categorias específicas por meio de filtros. Os clientes podem encontrar empreendedoras com base em suas necessidades e preferências, facilitando o processo de contratação de serviços.
- 
-
-## Status do Projeto
-
-### em construção...
-
 
 ## Acesso ao Projeto
 
@@ -83,7 +70,6 @@ Os clientes também podem criar um perfil na plataforma, fornecendo seus dados p
 ```
 
 ## ⚗️ Interface Gráfica Para Realizar os Testes
-
 
 📌 Este projeto está com os métodos HTTP organizados. Você pode testar as rotas Get, Post,Delete e Patch através de qualquer ferramenta cliente API REST, como Insomnia, Thunder Client, Postman, entre outros. Nesse projeto, utilizamos o [Postman](https://www.postman.com/downloads/). A interface é um CRUD.
 
@@ -154,6 +140,84 @@ Os clientes também podem criar um perfil na plataforma, fornecendo seus dados p
 | `express`    | Framework NodeJS. |
 | `mongoose`   | Dependência que interage com o MongoDB para a conexão da database, criação do model e das collections.|
 | `nodemon`    | Dependência que observa as atualizações realizadas nos documentos para rodar o servidor automaticamente.|
+
+-------------------------------------------------------------------
+# Clonar e Contribuir para o Projeto
+
+Este documento fornece instruções técnicas sobre como  com o projeto. O processo de clonar e contribuir, envolve o uso de comandos do Git para clonar o repositório, criar uma ramificação, fazer alterações e enviar um pedido de pull. Siga as etapas abaixo para começar:
+
+## Pré-requisitos
+
+Antes de prosseguir, certifique-se de ter o Git instalado no seu sistema. Caso contrário, você pode baixá-lo e instalá-lo a partir do site oficial do Git (https://git-scm.com/).
+
+## Clonar o Repositório
+
+1. Abra o terminal ou prompt de comando.
+
+2. Navegue até o diretório onde deseja clonar o repositório.
+
+3. Execute o seguinte comando para clonar o repositório para o seu sistema local:
+
+```git
+git clone https://github.com/DelisG/projeto-delas.git
+```
+
+## Criar uma Ramificação (Branch)
+
+1. Navegue para o diretório do projeto clonado usando o comando `cd projeto-delas`.
+
+2. Execute o seguinte comando para criar uma nova ramificação (branch) para trabalhar nas suas alterações:
+
+```git
+git checkout -b <nome_da_branch>
+```
+
+Substitua `<nome_da_branch>` pelo nome descritivo da branch que você deseja criar.
+
+## Fazer Alterações
+
+1. Abra o projeto clonado em seu editor de código.
+
+2. Faça as alterações desejadas nos arquivos.
+
+## Commit das Alterações
+
+1. Volte para o terminal ou prompt de comando.
+
+2. Execute o seguinte comando para adicionar as alterações ao seu controle de versão:
+
+```git
+git add .
+```
+
+Esse comando adicionará todas as alterações feitas aos arquivos no diretório atual.
+
+3. Em seguida, execute o seguinte comando para criar um commit com uma mensagem descritiva das alterações:
+
+```git
+git commit -m "Mensagem do commit"
+```
+
+## Enviar um Pedido de Pull
+
+1. Execute o seguinte comando para enviar sua ramificação (branch) e as alterações para o repositório remoto no GitHub:
+
+```git
+git push origin <nome_da_branch>
+```
+
+Substitua `<nome_da_branch>` pelo nome da branch que você criou anteriormente.
+
+2. Acesse o repositório no GitHub.
+
+3. Clique no botão "Compare & pull request" (ou similar) ao lado da sua ramificação no repositório.
+
+4. Preencha os detalhes do seu pedido de pull (pull request), incluindo uma descrição clara das alterações realizadas.
+
+5. Clique em "Create pull request" para enviar o pedido de pull.
+
+Pronto! Você enviou com sucesso suas alterações para o projeto. Aguarde a revisão e o feedback da equipe do projeto. Certifique-se de manter sua ramificação atualizada com as alterações mais recentes do repositório principal para evitar conflitos.
+--------------------------------------------------------------------------------------
 
 <h1 align="center">
 
